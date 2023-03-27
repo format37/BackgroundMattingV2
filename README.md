@@ -85,6 +85,23 @@ We provide a demo application that pipes webcam video through our model and outp
 
 ## Usage / Documentation
 
+### Docker run
+
+1. Build the docker image
+```
+sh build.sh
+```
+2. Download [PyTorch weights](https://drive.google.com/drive/folders/1cbetlrKREitIgjnIikG1HdM4x72FtgBh?usp=sharing) and put the PyTorch dir in folder:
+```
+data/models/
+```
+3. Run the docker image
+```
+sh run.sh
+```
+
+### Original run
+
 You can run our model using **PyTorch**, **TorchScript**, **TensorFlow**, and **ONNX**. For detail about using our model, please check out the [Usage / Documentation](doc/model_usage.md) page.
 
 &nbsp;

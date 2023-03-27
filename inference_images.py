@@ -35,6 +35,8 @@ from dataset import augmentation as A
 from model import MattingBase, MattingRefine
 from inference_utils import HomographicAlignment
 
+# Print pytorch version
+print('PyTorch version: {}'.format(torch.__version__))
 
 # --------------- Arguments ---------------
 
