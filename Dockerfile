@@ -11,6 +11,7 @@ RUN python3 -m pip install -r requirements.txt --no-cache-dir
 RUN python3 -m pip install opencv-python
 RUN python3 -m pip install onnxruntime
 RUN apt-get install libgl1-mesa-glx -y
+# RUN python3 -m pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu117
 # RUN python3 -m pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
 # RUN python3 -m pip install https://download.pytorch.org/whl/cu118/torch-2.0.0%2Bcu118-cp38-cp38-linux_x86_64.whl
 # COPY torch-2.0.0+cu118-cp38-cp38-linux_x86_64.whl .
